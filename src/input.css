@@ -90,7 +90,7 @@ li{
 
 .left .btn, .btn, .savePic{
     height: 70px;
-    max-width: 414px;
+    width: 414px;
     background-color: var(--secondary-color);
     border-radius: 52px;
     color: white;
@@ -102,6 +102,7 @@ li{
 }
 
 .savePic{
+    max-width: 414px;
     width: 80%;
 }
 
