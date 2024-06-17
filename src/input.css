@@ -88,7 +88,7 @@ li{
     animation: hovering 2s infinite;
 }
 
-.left a, a{
+.left .btn, .btn{
     height: 70px;
     width: 414px;
     background-color: var(--secondary-color);
@@ -116,11 +116,77 @@ li{
     display: none;
 }
 
+.menu-icon{
+    display: none;
+}
+
 video{
     width: 630px;
     height: 530px;
     border-radius: 48px;
     background-color: black;
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        width: 50%;
+    }
+
+    section{
+        width: 80%;
+    }
+
+    .hero-section{
+        flex-direction: column;
+        margin: 0;
+        display: block;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        width: 10%;
+    }
+
+    nav{
+        margin-bottom: 30%;
+    }
+
+
+    .left h1{
+        font-size: 8vw;
+        width: 90%;
+    }
+
+    .left .btn{
+        display: none;
+    }
+    
+
+
+    .right img{
+        width: 80%;
+    }
+
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40%;
+    }
+
+    .camera-section{
+        margin-top: 20px;
+    }
+
+    video{
+        width: 100%;
+        height: 100%;
+    }
+    
 }
 
 @keyframes hovering {
