@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="icon" href="../images/TrashTechFavicon.png" rel="icon">
+    <link rel="stylesheet" href="../output.css">
+    <script src="https://unpkg.com/webcam-easy@1.1.1/dist/webcam-easy.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Trash Tech</title>
+</head>
+<body>
+    <section>
+        <!-- Start of Desktop Nav -->
+        <nav>
+            <div class="logo"><img src="../images/techlogo.png" alt="TrashTech"></div>
+            <ul>
+                <li>Visit</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <!-- End of desktop Nav -->
+
+        <div class="camera-section">
+                <video id="webCam" autoplay playsinline width="630" height="530"></video>
+                <canvas class="hidden" id="canvas"></canvas>
+                <a onclick="takePicture()" href="#" id="savePic">Scan</a>
+        </div>
+
+
+    </section>
+    <script src="../main.js"></script>
+</body>
+</html>
