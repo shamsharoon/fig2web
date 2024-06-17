@@ -88,7 +88,7 @@ li{
     animation: hovering 2s infinite;
 }
 
-.left .btn, .btn{
+.left .btn, .btn, #savePic{
     height: 70px;
     width: 414px;
     background-color: var(--secondary-color);
