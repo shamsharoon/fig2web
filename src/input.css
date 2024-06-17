@@ -115,6 +115,8 @@ li{
 
 .camera-section canvas{
     border-radius: 48px ;
+    height: 530px;
+    width: 630px;
 }
 
 .hidden{
