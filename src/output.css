@@ -655,9 +655,9 @@ li{
   animation: hovering 2s infinite;
 }
 
-.left .btn, .btn, #savePic{
+.left .btn, .btn, .savePic{
   height: 70px;
-  width: 414px;
+  max-width: 414px;
   background-color: var(--secondary-color);
   border-radius: 52px;
   color: white;
@@ -666,6 +666,10 @@ li{
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+}
+
+.savePic{
+  width: 80%;
 }
 
 .camera-section{
